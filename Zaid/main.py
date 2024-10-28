@@ -47,7 +47,7 @@ else:
 
 
 
-with Client(":umm:", API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
+with Client(API_ID, API_HASH, bot_token=BOT_TOKEN) as app:
     me_bot = app.get_me()
 
 Test = ASS_CLI_1
